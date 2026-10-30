@@ -3,6 +3,7 @@
 🎃 BOO-BOT: CHATBOT DE HALLOWEEN (versión Streamlit) 🎃
 -------------------------------------------------------
 Chatbot web para estudiantes de secundaria (12-15 años) con Gemini.
+Creado por Martínez García Roberto y Garrido Vazques Fernanda.
 
 EJECUTAR EN TU COMPUTADORA:
     pip install -r requirements.txt
@@ -314,6 +315,8 @@ with st.sidebar:
     if st.button("🧹 Nueva conversación", use_container_width=True):
         st.session_state.mensajes = []
         st.rerun()
+    # Crédito discreto (texto pequeño al final de la barra lateral)
+    st.caption("Creado por Martínez García Roberto y Garrido Vazques Fernanda")
 
 # ============================================================
 # 6. MOSTRAR EL CHAT
